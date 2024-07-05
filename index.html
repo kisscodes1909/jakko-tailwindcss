@@ -1,0 +1,44 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="description" content="">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+  <meta property="og:image:alt" content="">
+
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+  <div class="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-md flex items-center space-x-4">
+    <div x-data="{ count: 0 }">
+      <h1 class="text-2xl font-bold text-center">
+        Hello, Tailwind CSS and Alpine.js!
+      </h1>
+      <p class="text-gray-500">This is a sample template using Tailwind CSS, Roboto font, and Alpine.js.</p>
+      <button @click="count++" class="mt-4 px-4 py-2 bg-blue-500 text-white rounded">
+        Click me: <span x-text="count"></span>
+      </button>
+    </div>
+  </div>
+
+  <script src="js/app.js"></script>
+
+</body>
+
+</html>
